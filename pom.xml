@@ -12,6 +12,7 @@
 	<artifactId>EmployeeDetailsExcelFileUpload</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>EmployeeDetailsExcelFileUpload</name>
+	<packaging>war</packaging>
 	<description>How to load excel file and map the values to database</description>
 	<url/>
 	<licenses>
@@ -53,6 +54,7 @@
 			<artifactId>commons-compress</artifactId>
 			<version>1.26.0</version>
 		</dependency>
+
 		<dependency>
 			<groupId>mysql</groupId>
 			<artifactId>mysql-connector-java</artifactId>
