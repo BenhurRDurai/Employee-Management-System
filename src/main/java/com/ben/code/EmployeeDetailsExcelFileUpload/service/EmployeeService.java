@@ -50,8 +50,9 @@ public class EmployeeService {
 
     }
 
-    public void addEmployee(Employee employee) {
+    public Employee addEmployee(Employee employee) {
         employeeRepository.save(employee);
+        return employee;
     }
 
     public List<Employee> getAllEmployees() {

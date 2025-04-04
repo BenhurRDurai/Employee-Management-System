@@ -34,9 +34,8 @@ public class EmployeeController {
     }
 
     @PostMapping("/addEmployee")
-    public String addEmployee(@RequestBody Employee employee){
-        employeeService.addEmployee(employee);
-        return "Employee added successfully";
+    public Employee addEmployee(@RequestBody Employee employee){
+        return employeeService.addEmployee(employee);
     }
 
 
